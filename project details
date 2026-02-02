@@ -1,0 +1,74 @@
+
+
+Mini Project 1: MENU DRIVEN BILLING CALCULATOR USING PYTHON
+_____________________________________________________________________
+
+1. Project Title :
+Menu Driven Billing Calculator using Python.
+____________________________________________________________________
+
+2. Problem Statement :
+To design and implement a menu driven billing calculator that allows the user to perform basic arithmetic operations such as addition, subtraction, multiplication, division, view total bill amount, and exit the program.
+_____________________________________________________________________
+
+3. Objective :
+• To perform basic billing calculations.
+• To use menu driven programming.
+• To understand operators, input and output.
+• To apply loops and conditional statements.
+____________________________________________________________________
+4. Tools Used :
+• Python 3
+• VS Code / IDLE
+
+___________________________________________________________________
+
+5. Description :
+This project simulates a simple billing calculator. The user can choose options from a menu to add item cost, subtract discount, multiply quantity, divide amount, check total bill, or exit. The bill amount is updated after each operation.
+
+___________________________________________________________________
+
+6. Algorithm :
+1.	Initialize total bill amount
+2.	Display billing menu
+3.	Read user choice
+4.	If choice is add → add amount to bill
+5.	If choice is subtract → subtract discount
+6.	If choice is multiply → multiply quantity
+7.	If choice is divide → divide amount
+8.	Display bill amount
+9.	Repeat until exit
+___________________________________________________________________
+7. Program (Python Code) :
+price1 = float(input("Enter price of item 1: "))
+qty1 = int(input("Enter quantity of item 1: "))
+
+price2 = float(input("Enter price of item 2: "))
+qty2 = int(input("Enter quantity of item 2: "))
+
+amount1 = price1 * qty1
+amount2 = price2 * qty2
+
+total = amount1 + amount2
+print("Total Bill Amount =", total) 
+
+___________________________________________________________________
+
+
+
+ 
+
+______________________________________________________________________
+
+9. Result :
+The menu driven billing calculator successfully performs arithmetic operations and displays the updated bill amount correctly.
+
+_____________________________________________________________________
+
+
+10. Conclusion :
+This project shows how Python can be used to create a simple menu driven billing calculator using basic operators, input, output, loops, and conditional statements.
+
+______________________________________________________________________
+
+
